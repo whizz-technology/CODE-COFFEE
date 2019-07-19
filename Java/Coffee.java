@@ -1,5 +1,9 @@
 public class Coffee {
    public String taste() {
-      return "Delicious";
+      return "Delicious!";
+   }
+
+   public CafeAuLait mixMilk() {
+      return new CafeAuLait();
    }
 }
